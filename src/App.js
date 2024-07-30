@@ -6,32 +6,15 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import TicTacToe from "./pages/tictactoe";
 import Home from "./pages/home";
 import Page3 from "./pages/test3";
+import Header from "./components/Header";
 
 
-function TitleBar() {
-  return (
-    <div className='titlebar'>
-      <nav>
-        <ul>
-          <li>
-            <Link to="">Home</Link>
-          </li>
-          <li>
-            <Link to="/test/tictactoe.js">TicTacToe</Link>
-          </li>
-          <li>
-            <Link to="/test/test3.js">Dashboard</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  );
-}
+
 
 function App() {
   return (
     <BrowserRouter>
-      <TitleBar />
+      <Header />
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="/test/tictactoe.js" element={<TicTacToe />} />
