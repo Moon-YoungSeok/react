@@ -2,6 +2,6 @@ import React from "react";
 
 export default function home() {
   return (
-      <h1>호옴~~~</h1>
+      <h1>홈버튼~</h1>
   );
 }
