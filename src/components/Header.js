@@ -16,6 +16,9 @@ function Header() {
             <li>
               <Link to="/test/props.js">Props</Link>
             </li>
+            <li>
+              <Link to="/test/handler.js">Handler</Link>
+            </li>
           </ul>
         </nav>
       </div>
