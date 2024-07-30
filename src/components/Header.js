@@ -14,7 +14,7 @@ function Header() {
               <Link to="/test/tictactoe.js">TicTacToe</Link>
             </li>
             <li>
-              <Link to="/test/test3.js">Dashboard</Link>
+              <Link to="/test/props.js">Props</Link>
             </li>
           </ul>
         </nav>
