@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function handler() {
+export default function Handler() {
     const handleOnClick = (e) =>
     {
         console.log("핸들버튼 클릭!");
