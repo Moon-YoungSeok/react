@@ -10,6 +10,10 @@ import Handler from "./pages/handler";
 import State from "./pages/state";
 import Ref from "./pages/ref";
 import Sign from "./pages/sign";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 672212eea4c5fee42e88bcd7a388e1f95bcbfba1
 
 import Header from "./components/Header";
 

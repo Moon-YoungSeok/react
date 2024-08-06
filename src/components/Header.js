@@ -26,7 +26,11 @@ function Header() {
               <Link to="/test/ref.js">Ref</Link>
             </li>
             <li>
+<<<<<<< HEAD
               <Link to="/test/sign.js">sign</Link>
+=======
+              <Link to="/test/sign.js">Sign</Link>
+>>>>>>> 672212eea4c5fee42e88bcd7a388e1f95bcbfba1
             </li>
           </ul>
         </nav>
