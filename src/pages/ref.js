@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 
 export default function Ref() {
     const [text, setText] = useState("");
-    const textRef = useRef(); //돔 요소를 지정하는 아이디라고 보면될듯
+    const textRef = useRef(); 
     //useRef에서 기억할 것은 이러한 current라는 키값을 지닌 프로퍼티가 생성되고, 값에 어떤 변경을 줄때도 이 current를 이용해서 한다는 점이다.
 /*
 

@@ -9,6 +9,7 @@ import Page3 from "./pages/props";
 import Handler from "./pages/handler";
 import State from "./pages/state";
 import Ref from "./pages/ref";
+import Sign from "./pages/sign";
 
 import Header from "./components/Header";
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/test/handler.js" element={<Handler />} />
         <Route path="/test/state.js" element={<State  />} />
         <Route path="/test/ref.js" element={<Ref  />} />
+        <Route path="/test/sign.js" element={<Sign  />} />
 
 
         {/* 값 전달 기본적인 구조 (스프레드 연산자 사용가능) */}
